@@ -1,0 +1,100 @@
+<!DOCTYPE>
+<html>
+<head>
+<link rel="stylesheet" href="bushomecss.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+<title>redbus.home</title>
+
+
+
+
+
+</head>
+<body class="bg">
+<div >
+<div class="header">
+
+<img class="user2" src="redbusicn.png" style="width:80px;height:60px;">
+
+<ul class="listbar">
+<li class="listitem">
+<a class="listanchorwhite" href="#">BUS TICKETS</a>
+</li>
+<li class="listitem">&nbsp&nbsp&nbsp
+<a class="listanchorwhite" href="#" >rPool <sup>New</sup></a>
+</li>
+<li class="listitem">&nbsp&nbsp&nbsp
+<a class="listanchorwhite" href="#">BUS HIRE</a>
+</li>
+</ul>
+<ul class="listbarright">
+<li class="listitem">
+<a class="listanchorwhite" href="#">Help</a>
+</li>
+<li class="listitem">&nbsp&nbsp&nbsp
+<div class="dropdown-menu">
+<a class="listanchorwhite" href="#">Manage Booking
+<i class="fas fa-chevron-down"></i></a>
+<div class="dropdown-content">
+<a class="dropdown-item" href="#">Bus Tickets</a><br><br>
+<a class="dropdown-item" href="#">Cancel</a><br><br>
+<a class="dropdown-item" href="#">Change Travel Date</a><br><br>
+<a class="dropdown-item" href="#">Show My Ticket</a><br><br>
+<a class="dropdown-item" href="#">Email/SMS</a><br><br>
+</div>
+</div>
+</li>
+<li class="listitem">&nbsp&nbsp&nbsp&nbsp
+<div class="dropdown-menu">
+<a class="listanchorwhite" href="#"><img class="user" src="user(1).png">
+</a>
+<div class="dropdown-content">
+<a class="dropdown-item" href="#">Sign In/Sign Up</a><br><br>
+
+</div>
+</div>
+
+</li>
+</ul>
+</div>
+</div>
+<div class="search" style= margin:auto">
+<div class="input-icons">
+
+
+
+<input type="text" class="from" name="from" placeholder="FROM">
+<i id="ocn" class="far fa-building"></i>
+<input type="text" class="from" name="from" placeholder="TO">
+<i id="ocn2" class="far fa-building"></i>
+<input type="text" class="from" name="from" onclick="setDatepicker(this)" placeholder="DATE">
+<i id="ocn3" class="far fa-calendar-alt"></i>
+<input type="button" id="schbtn" class="from" value="Search Buses">
+</div>
+</div>
+ <script type="text/javascript">
+        function setDatepicker(_this) {
+  
+            /* Get the parent class name so we 
+                can show date picker */
+            let className = $(_this).parent()
+                .parent().parent().attr('class');
+  
+            // Remove space and add '.'
+            let removeSpace = className.replace(' ', '.');
+  
+            // jQuery class selector
+            $("." + removeSpace).datepicker({
+                format: "dd/mm/yyyy",
+  
+                // Positioning where the calendar is placed
+                orientation: "bottom auto",
+                // Calendar closes when cursor is 
+                // clicked outside the calendar
+                autoclose: true,
+                showOnFocus: "false"
+            });
+        }
+    </script>
+</body>
+</html>

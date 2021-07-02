@@ -1,0 +1,150 @@
+.body1
+{
+  
+}
+.header{
+background-color: rgba(255, 37, 55, 0.76);
+width:100%;
+height:70px;
+background-size:cover;
+}
+.listbar{
+position: absolute;
+left:150px;
+top:15px;
+list-style-type: none;
+
+}
+.listitem{
+
+float:left;
+}
+.listanchorwhite{
+text-decoration:none;
+color:white;
+font-family: Tahoma, Verdana, sans-serif;
+}
+#pool{
+position:absolute;
+top:15px;
+}
+.listbarright
+{
+position:absolute;
+right:50px;
+top:15px;
+list-style-type: none;
+}
+.bg{
+ background-image: url("pexels-gustavo-fring-3885493.jpg");
+background-size:cover;
+}
+#btn{
+border: 2px solid white;
+border-radius: 5px;
+ background-color: rgba(17, 17, 6, 1);
+ color: white;
+padding:px;
+font-weight:bold;
+}
+.dropdown-content {
+text-decoration:none;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width:160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+padding:12px 16px;
+  z-index: 1;
+}
+.dropdown-menu 
+{
+ position: relative;
+ display: inline-block;
+}
+.dropdown-menu:hover .dropdown-content {
+  display: block;
+}
+.dropdown-item{
+text-decoration:none;
+color:black;
+font-family: Tahoma, Verdana, sans-serif;
+}
+.user
+{
+width:32px;
+height:32px;
+list-style-type: none;
+}
+.up{
+top:15px;
+}
+.dropdown-menu2
+{
+ position: relative;
+ display: inline-block;
+}
+.dropdown-content22 {
+text-decoration:none;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width:100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+padding:12px 16px;
+  z-index: 1;
+}
+.dropdown-menu2:hover .dropdown-content {
+  display: block;
+}
+.search{
+position: absolute;
+left:350px;
+top:240px;
+}
+.from{
+margin:15px 0px;
+padding: 10px;
+text-align:center;
+}
+.input-icons i{
+position: absolute;
+}
+.input-icons {
+width: 100%;
+margin-bottom: 10px;
+}
+.icon {
+padding: 30px;
+right:93%;
+}
+#ocn{
+padding: 25px;
+right:93%;
+}
+#ocn2{
+padding: 25px;
+right:65%;
+}
+#ocn3{
+padding: 25px;
+right:37%;
+}
+#schbtn{
+background-color: rgba(255, 37, 55, 0.76);
+color:white;
+text-weight:bold;
+}
+#schbtn:hover{
+background-color:rgba(253, 6, 6, 0.79);
+}
+.user2{
+
+position: absolute;
+left:80px;
+top:15px;
+}
+.listanchorwhite:hover{
+
+color:grey;
+}
